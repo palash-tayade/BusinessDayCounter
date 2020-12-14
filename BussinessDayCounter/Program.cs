@@ -39,7 +39,7 @@ namespace BusinessDayCounter
         }
 
         /// <summary>
-        /// Task 2 - Returns number of bussiness days between two dates. This function caters for public holidays falling on weekend days.
+        /// Task 3 - Returns number of bussiness days between two dates. This function caters for public holidays falling on weekend days.
         /// </summary>
         /// <param name="dateStart"></param>
         /// <param name="dateEnd"></param>
