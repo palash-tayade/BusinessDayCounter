@@ -1,0 +1,142 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/palashtayade/Projects/BussinessDayCounter/BussinessDayCounterTest/BussinessDayCounterTest.csproj": {}
+  },
+  "projects": {
+    "/Users/palashtayade/Projects/BussinessDayCounter/BussinessDayCounter/BussinessDayCounter.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/palashtayade/Projects/BussinessDayCounter/BussinessDayCounter/BussinessDayCounter.csproj",
+        "projectName": "BussinessDayCounter",
+        "projectPath": "/Users/palashtayade/Projects/BussinessDayCounter/BussinessDayCounter/BussinessDayCounter.csproj",
+        "packagesPath": "/Users/palashtayade/.nuget/packages/",
+        "outputPath": "/Users/palashtayade/Projects/BussinessDayCounter/BussinessDayCounter/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/palashtayade/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.agridigital.io/nuget": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/palashtayade/Projects/BussinessDayCounter/BussinessDayCounterTest/BussinessDayCounterTest.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/palashtayade/Projects/BussinessDayCounter/BussinessDayCounterTest/BussinessDayCounterTest.csproj",
+        "projectName": "BussinessDayCounterTest",
+        "projectPath": "/Users/palashtayade/Projects/BussinessDayCounter/BussinessDayCounterTest/BussinessDayCounterTest.csproj",
+        "packagesPath": "/Users/palashtayade/.nuget/packages/",
+        "outputPath": "/Users/palashtayade/Projects/BussinessDayCounter/BussinessDayCounterTest/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/palashtayade/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.agridigital.io/nuget": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "/Users/palashtayade/Projects/BussinessDayCounter/BussinessDayCounter/BussinessDayCounter.csproj": {
+                "projectPath": "/Users/palashtayade/Projects/BussinessDayCounter/BussinessDayCounter/BussinessDayCounter.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.5.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
